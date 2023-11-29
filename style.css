@@ -130,6 +130,10 @@ img{
 }
 
 .addition{
+    display: flex;
+    align-content: center;
+    
+    justify-content: center;
     margin-right: 20px;
     background-color: #ac8304;
     color: #ffffff;
@@ -142,4 +146,44 @@ div{
 
 .cach{
     display: none;
+}
+
+.panier-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #463d3b;  
+    margin-top: 10px;
+    position: absolute;
+    
+    left: 20px;
+}
+.panier-item{
+    background-color: #463d3b;
+}
+
+.panier-name{
+   margin-left: 100px;
+    font-size: smaller;
+    font: italic; 
+    background-color: #463d3b;
+    color: #ffffff; 
+}
+.panier-price{
+    margin-left: 100px;
+    background-color: #463d3b; 
+    color: #ffffff;
+}
+.panier-info{
+    background-color: #463d3b;
+    /* gap: 10px; */
+   
+}
+.compteurs{
+    position: relative;
+    left: 120px;
+    font-size: large;
+   
+    background-color: #463d3b;
+    color: #ac8304;
 }
